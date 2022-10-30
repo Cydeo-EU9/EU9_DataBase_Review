@@ -7,6 +7,9 @@
     <file url="file://$PROJECT_DIR$/src/week2/between.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/src/week2/count.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/src/week2/distinict.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/week2/groupby.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/week2/stringmanipulation.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/week2/subquery.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/src/week2/where.sql" dialect="GenericSQL" />
   </component>
 </project>

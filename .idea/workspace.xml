@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dca0f379-86b5-4afe-a76b-bcea37e65a57" name="Changes" comment="SQL first day">
-      <change afterPath="$PROJECT_DIR$/src/week2/ORDERBY.SQL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week2/aggregate.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week2/between.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week2/count.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week2/distinict.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week2/where.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dc5068f0-9481-420d-ab56-4ccfe39a606c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dc5068f0-9481-420d-ab56-4ccfe39a606c.xml" afterDir="false" />
+    <list default="true" id="dca0f379-86b5-4afe-a76b-bcea37e65a57" name="Changes" comment="SQL WEEK 2 REVIEW">
+      <change afterPath="$PROJECT_DIR$/src/week2/groupby.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week2/stringmanipulation.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/week2/subquery.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/week1/firstClass.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/week1/firstClass.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +53,7 @@
       <workItem from="1666690579191" duration="1438000" />
       <workItem from="1667049245149" duration="29000" />
       <workItem from="1667081345509" duration="623000" />
-      <workItem from="1667134395937" duration="9991000" />
+      <workItem from="1667134395937" duration="16375000" />
     </task>
     <task id="LOCAL-00001" summary="SQL first day">
       <created>1666690669788</created>
@@ -67,7 +62,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666690669788</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="SQL WEEK 2 REVIEW">
+      <created>1667148437132</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667148437132</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +88,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="SQL first day" />
-    <option name="LAST_COMMIT_MESSAGE" value="SQL first day" />
+    <MESSAGE value="SQL WEEK 2 REVIEW" />
+    <option name="LAST_COMMIT_MESSAGE" value="SQL WEEK 2 REVIEW" />
   </component>
 </project>
