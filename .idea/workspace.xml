@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dca0f379-86b5-4afe-a76b-bcea37e65a57" name="Changes" comment="SQL WEEK 2 REVIEW">
-      <change afterPath="$PROJECT_DIR$/src/week2/groupby.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week2/stringmanipulation.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/week2/subquery.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +49,8 @@
       <workItem from="1666690579191" duration="1438000" />
       <workItem from="1667049245149" duration="29000" />
       <workItem from="1667081345509" duration="623000" />
-      <workItem from="1667134395937" duration="16375000" />
+      <workItem from="1667134395937" duration="16447000" />
+      <workItem from="1667207627121" duration="11000" />
     </task>
     <task id="LOCAL-00001" summary="SQL first day">
       <created>1666690669788</created>
@@ -69,7 +66,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667148437132</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="SQL WEEK 2 REVIEW">
+      <created>1667159476124</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667159476124</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

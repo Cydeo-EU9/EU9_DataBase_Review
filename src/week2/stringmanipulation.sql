@@ -29,5 +29,5 @@ select upper(CITY), lower(STREET_ADDRESS) from LOCATIONS;
 -- new id name is Personal ID
 
 select EMPLOYEE_ID||substr(FIRST_NAME,0,2)||substr(JOB_ID,0,2)||DEPARTMENT_ID
-    as "Personal ID" from EMPLOYEES;
+    as "Personal ID" from EMPLOYEES;//
 
