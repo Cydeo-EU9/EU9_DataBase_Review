@@ -97,3 +97,7 @@ where id=3;
 alter table laptop rename to laptops;
 select * from laptops;
 
+truncate table laptops;
+
+drop table laptops;
+
