@@ -10,6 +10,10 @@
     <file url="file://$PROJECT_DIR$/src/week2/groupby.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/src/week2/stringmanipulation.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/src/week2/subquery.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/week2/test.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/src/week2/where.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/week3/innerJoin.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/week3/leftOuterJoin.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/week3/view.sql" dialect="GenericSQL" />
   </component>
 </project>
