@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/src/week1/firstClass.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/src/officeHour/SQLPractice.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/src/officeHour/new.sql" dialect="Oracle" />
+    <file url="file://$PROJECT_DIR$/src/test.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/week1/firstClass.sql" dialect="PostgreSQL" />
     <file url="file://$PROJECT_DIR$/src/week2/ORDERBY.SQL" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/src/week2/aggregate.sql" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/src/week2/between.sql" dialect="GenericSQL" />

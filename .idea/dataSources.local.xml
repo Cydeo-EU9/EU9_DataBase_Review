@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="dataSourceStorageLocal" created-in="IU-222.4345.14">
+  <component name="dataSourceStorageLocal" created-in="IU-222.4459.24">
     <data-source name="HR" uuid="dc5068f0-9481-420d-ab56-4ccfe39a606c">
       <database-info product="Oracle" version="Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production" jdbc-version="4.3" driver-name="Oracle JDBC driver" driver-version="21.5.0.0.0" dbms="ORACLE" exact-version="11.2.0.2.0" exact-driver-version="21.5">
         <extra-name-characters>$#</extra-name-characters>
@@ -19,6 +19,21 @@
       </schema-mapping>
       <introspection-level>3</introspection-level>
       <load-sources>user_and_system_sources</load-sources>
+    </data-source>
+    <data-source name="BOOKIT" uuid="d617ddeb-c9f0-4c3f-89ce-47b7170e5341">
+      <database-info product="PostgreSQL" version="9.6.23" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.5.0" dbms="POSTGRES" exact-version="9.6.23" exact-driver-version="42.5">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>qa_user</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="database" qname="@">
+            <node kind="schema" qname="@" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
     </data-source>
   </component>
 </project>

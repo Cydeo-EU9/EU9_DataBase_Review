@@ -28,3 +28,10 @@ SELECT JOB_ID, DEPARTMENTS.MANAGER_ID
 FROM EMPLOYEES
          INNER JOIN DEPARTMENTS
                     ON EMPLOYEES.DEPARTMENT_ID = DEPARTMENTS.DEPARTMENT_ID;
+
+
+select * from LOCATIONS;
+
+select COUNTRY_NAME, REGION_NAME from COUNTRIES
+                                          full outer join REGIONS
+                                                          on COUNTRIES.REGION_ID=REGIONS.REGION_ID;
