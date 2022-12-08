@@ -155,6 +155,60 @@ select SALARY from EMPLOYEES
 where SALARY < 24000
 order by SALARY desc;
 
+-- string functions
+-- concatenation
+select FIRST_NAME, EMAIL from EMPLOYEES;
+select EMAIL||'@gmail' as fullEmail from EMPLOYEES; --  email + @gmail = fullEmail
+
+select lower(email) from EMPLOYEES;
+
+select lower(EMAIL)||'@gmail.com' as newEmail from EMPLOYEES;
+
+select upper(FIRST_NAME) from EMPLOYEES;
+
+select LAST_NAME, length(LAST_NAME) from EMPLOYEES;
+
+-- substring
+select FIRST_NAME, substr(FIRST_NAME,1,3) from EMPLOYEES;
+select JOB_TITLE, substr(JOB_TITLE, 2,2) from JOBS;
+
+-- init cap
+select EMAIL from EMPLOYEES;
+select EMAIL, initcap(EMAIL) from EMPLOYEES;
+
+-- view
+-- view function generate a virtual table, to see the result later
+create view emailinit10 as select EMAIL, initcap(EMAIL) as initEmail10 from EMPLOYEES;
+
+create view fullEmailNew as select lower(EMAIL)||'@gmail.com' as fullEmailNew from EMPLOYEES;
+
+
+-- join
+
+-- (INNER) JOIN: Returns records that have matching values in both tables
+-- LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table
+-- RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table
+-- FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table
+
+select FIRST_NAME, LAST_NAME, DEPARTMENT_NAME from EMPLOYEES
+left join  DEPARTMENTS
+on EMPLOYEES.DEPARTMENT_ID = DEPARTMENTS.DEPARTMENT_ID;
+
+select FIRST_NAME, LAST_NAME, DEPARTMENT_NAME from EMPLOYEES
+right join DEPARTMENTS
+on EMPLOYEES.DEPARTMENT_ID = DEPARTMENTS.DEPARTMENT_ID;
+
+select FIRST_NAME, END_DATE from EMPLOYEES
+right join JOB_HISTORY
+on EMPLOYEES.EMPLOYEE_ID = JOB_HISTORY.EMPLOYEE_ID;
+
+select FIRST_NAME, END_DATE from EMPLOYEES
+left join JOB_HISTORY
+on EMPLOYEES.EMPLOYEE_ID = JOB_HISTORY.EMPLOYEE_ID;
+
+
+
+
 
 
 
