@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dca0f379-86b5-4afe-a76b-bcea37e65a57" name="Changes" comment="office hour is added">
+    <list default="true" id="dca0f379-86b5-4afe-a76b-bcea37e65a57" name="Changes" comment="join types are added">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/dc5068f0-9481-420d-ab56-4ccfe39a606c.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dc5068f0-9481-420d-ab56-4ccfe39a606c.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dc5068f0-9481-420d-ab56-4ccfe39a606c/storage_v2/_src_/schema/HR.CgkAAA.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dc5068f0-9481-420d-ab56-4ccfe39a606c/storage_v2/_src_/schema/HR.CgkAAA.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/officeHour/SQLPractice.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/officeHour/SQLPractice.sql" afterDir="false" />
     </list>
@@ -65,7 +64,7 @@
       <workItem from="1669214591290" duration="3622000" />
       <workItem from="1669804526596" duration="25000" />
       <workItem from="1670003404020" duration="6664000" />
-      <workItem from="1670521908471" duration="3091000" />
+      <workItem from="1670521908471" duration="6299000" />
     </task>
     <task id="LOCAL-00001" summary="SQL first day">
       <created>1666690669788</created>
@@ -137,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670010439926</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="join types are added">
+      <created>1670525243304</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670525243304</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +165,7 @@
     <MESSAGE value="SQL WEEK 2 REVIEW" />
     <MESSAGE value="SQL WEEK 3 REVIEW" />
     <MESSAGE value="office hour is added" />
-    <option name="LAST_COMMIT_MESSAGE" value="office hour is added" />
+    <MESSAGE value="join types are added" />
+    <option name="LAST_COMMIT_MESSAGE" value="join types are added" />
   </component>
 </project>
